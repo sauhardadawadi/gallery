@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 # Use mysql as the database for Active Record for local machine
 group :development, :test do
 	gem 'mysql2'
+	gem 'rspec-rails'
 end
 #for heroku
 group :production do

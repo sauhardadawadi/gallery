@@ -31,3 +31,39 @@ Migrating to CreatePosts (20130801044341)
   [1m[35mSQL (18.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130801044341')
   [1m[36m (44.3ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 10:43:48 +0545
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/sauhardad/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 89.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2013-08-01 10:43:55 +0545
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1360ms (Views: 1359.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-01 10:43:56 +0545
