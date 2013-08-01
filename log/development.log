@@ -22,3 +22,12 @@ Started GET "/" for 127.0.0.1 at 2013-08-01 10:13:13 +0545
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/sauhardad/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
 Completed 200 OK in 141ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (221.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (200.5ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePosts (20130801044341)
+  [1m[35m (91.4ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (18.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130801044341')
+  [1m[36m (44.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (1.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
