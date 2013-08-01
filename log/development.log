@@ -16,3 +16,9 @@ Started GET "/" for 127.0.0.1 at 2013-07-31 12:19:24 +0545
 Processing by Rails::WelcomeController#index as HTML
   Rendered /home/sauhardad/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
 Completed 200 OK in 68ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 10:13:13 +0545
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/sauhardad/.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
+Completed 200 OK in 141ms (Views: 112.3ms | ActiveRecord: 0.0ms)
