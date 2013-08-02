@@ -914,3 +914,40 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-02 10:25:10 +0545
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 10:25:10 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 10:43:21 +0545
+Processing by AlbumsController#index as HTML
+  [1m[36mAlbum Load (0.2ms)[0m  [1mSELECT `albums`.* FROM `albums`[0m
+  Rendered albums/index.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 53ms (Views: 48.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/albums.css?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/albums.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-02 10:43:22 +0545

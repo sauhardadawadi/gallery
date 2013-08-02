@@ -1,6 +1,8 @@
 Gallery::Application.routes.draw do
   resources :albums
 
+  root 'albums#index'
+
   get "users/index"
   get "users/show"
   # The priority is based upon order of creation: first created -> highest priority.
